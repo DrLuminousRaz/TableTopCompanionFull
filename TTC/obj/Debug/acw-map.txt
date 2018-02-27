@@ -1,0 +1,4 @@
+TTC.MainActivity, TTC;md5d017b63969242fbfaa891d6f5b4356ee.MainActivity
+TTC.MainActivity, TTC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5d017b63969242fbfaa891d6f5b4356ee.MainActivity
+TTC.MainActivity;md5d017b63969242fbfaa891d6f5b4356ee.MainActivity
+ttc.MainActivity;md5d017b63969242fbfaa891d6f5b4356ee.MainActivity

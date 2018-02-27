@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  <ListView
+      android:minWidth="25px"
+      android:minHeight="25px"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/listView"
+      android:layout_weight="10" />
+  <TextView
+      android:text="Time and Date of Roll"
+      android:textAppearance="?android:attr/textAppearanceMedium"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/textViewDate"
+      android:gravity="center" />
+  <LinearLayout
+      android:layout_weight="1"
+      android:orientation="horizontal"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+    <TextView
+        android:text="D01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewD1"
+        android:layout_weight="1" />
+    <TextView
+        android:text="R01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewR1"
+        android:layout_weight="1"
+        android:gravity="center" />
+    <TextView
+        android:text="D02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewD2"
+        android:layout_weight="1" />
+    <TextView
+        android:text="R02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewR2"
+        android:layout_weight="1"
+        android:gravity="center" />
+    <TextView
+        android:text="D03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewD3"
+        android:layout_weight="1" />
+    <TextView
+        android:text="R03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewR3"
+        android:layout_weight="1"
+        android:gravity="center" />
+    <TextView
+        android:text="D04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewD4"
+        android:layout_weight="1" />
+    <TextView
+        android:text="R04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewR4"
+        android:layout_weight="1"
+        android:gravity="center" />
+  </LinearLayout>
+  <LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_weight="1">
+    <TextView
+        android:text="D05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewD5"
+        android:layout_weight="1" />
+    <TextView
+        android:text="R05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewR5"
+        android:layout_weight="1"
+        android:gravity="center" />
+    <TextView
+        android:text="D06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewD6"
+        android:layout_weight="1" />
+    <TextView
+        android:text="R06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewR6"
+        android:layout_weight="1"
+        android:gravity="center" />
+    <TextView
+        android:text="D07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewD7"
+        android:layout_weight="1" />
+    <TextView
+        android:text="R07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewR7"
+        android:layout_weight="1"
+        android:gravity="center" />
+    <TextView
+        android:text="D08"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewD8"
+        android:layout_weight="1" />
+    <TextView
+        android:text="R08"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewR8"
+        android:layout_weight="1"
+        android:gravity="center" />
+  </LinearLayout>
+  <LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_weight="1">
+    <TextView
+        android:text="D09"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewD9"
+        android:layout_weight="1" />
+    <TextView
+        android:text="R09"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewR9"
+        android:layout_weight="1"
+        android:gravity="center" />
+    <TextView
+        android:text="D10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewD10"
+        android:layout_weight="1" />
+    <TextView
+        android:text="R10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewR10"
+        android:layout_weight="1"
+        android:gravity="center" />
+    <TextView
+        android:text="D11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewD11"
+        android:layout_weight="1" />
+    <TextView
+        android:text="R11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewR11"
+        android:layout_weight="1"
+        android:gravity="center" />
+    <TextView
+        android:text="D12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewD12"
+        android:layout_weight="1" />
+    <TextView
+        android:text="R12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewR12"
+        android:layout_weight="1"
+        android:gravity="center" />
+  </LinearLayout>
+  <LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_weight="1">
+    <TextView
+        android:text="D13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewD13"
+        android:layout_weight="1" />
+    <TextView
+        android:text="R13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewR13"
+        android:layout_weight="1"
+        android:gravity="center" />
+    <TextView
+        android:text="D14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewD14"
+        android:layout_weight="1" />
+    <TextView
+        android:text="R14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewR14"
+        android:layout_weight="1"
+        android:gravity="center" />
+    <TextView
+        android:text="D15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewD15"
+        android:layout_weight="1" />
+    <TextView
+        android:text="R15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewR15"
+        android:layout_weight="1"
+        android:gravity="center" />
+    <TextView
+        android:text="D16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewD16"
+        android:layout_weight="1" />
+    <TextView
+        android:text="R16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewR16"
+        android:layout_weight="1"
+        android:gravity="center" />
+  </LinearLayout>
+  <LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_weight="1">
+    <TextView
+        android:text="D17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewD17"
+        android:layout_weight="1" />
+    <TextView
+        android:text="R17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewR17"
+        android:layout_weight="1"
+        android:gravity="center" />
+    <TextView
+        android:text="D18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewD18"
+        android:layout_weight="1" />
+    <TextView
+        android:text="R18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewR18"
+        android:layout_weight="1"
+        android:gravity="center" />
+    <TextView
+        android:text="D19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewD19"
+        android:layout_weight="1" />
+    <TextView
+        android:text="R19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewR19"
+        android:layout_weight="1"
+        android:gravity="center" />
+    <TextView
+        android:text="D20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewD20"
+        android:layout_weight="1" />
+    <TextView
+        android:text="R20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewR20"
+        android:layout_weight="1"
+        android:gravity="center" />
+  </LinearLayout>
+</LinearLayout>
